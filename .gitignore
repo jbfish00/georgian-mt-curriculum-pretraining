@@ -1,0 +1,42 @@
+# ── Large data files (exceed GitHub's 100 MB limit) ──────────────────────────
+GENERAL_LDS_LANG.json
+SCRIPTURAL_LANG_DO_NOT_EDIT.json
+combined_en_ka_parallel.jsonl
+Data/COMBINED_GE_EN.json
+Data/splits/train_paired.jsonl
+Data/splits/train_modern_geo.txt
+
+# ── Model weights ─────────────────────────────────────────────────────────────
+*.safetensors
+models/*/adapter_model.safetensors
+models/*/tokenizer.json
+
+# ── Video files ───────────────────────────────────────────────────────────────
+*.mp4
+
+# ── Turn-in folder duplicates & very large files ─────────────────────────────
+Turn-in Folder/baseline_sft_final/
+Turn-in Folder/chron_sft_final/
+Turn-in Folder/mixed_sft_final/
+Turn-in Folder/rev_sft_final/
+Turn-in Folder/train-val-test_sets/train_paired.jsonl
+Turn-in Folder/train-val-test_sets/train_modern_geo.txt
+Turn-in Folder/LLaMA_project demo.mp4
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.cache/
+
+# ── OS / editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Compressed archives already extracted ────────────────────────────────────
+xmf_wikipedia_2021_30K.tar.gz

@@ -1,0 +1,21 @@
+You must make sure that the "Turn-in-Folder" is in a Google Drive directory that is accessible from Colab.
+All places where a directory change needs to occur is marked by "@@@". 
+If you have the "Turn-in-Folder" accessible from your mounted Google Drive location, you should only need to change the file path up to "Turn-in-Folder" for each path change.
+You must have a HuggingFace token accessible in your Secrets tab of Colab.
+
+You must run cells 1-3 with the necessary changes to the file paths.
+You may ignore the QLoRA, Training Variants, and Merge LoRA sections. Those are necessary for training the models which will take far too long for you to run.
+
+The Evaluation section contains several cells that you may want to run.
+The first will run the translation for a single line of English through all four models.
+The second will run 50 random sentences of the test set through all four models. (This will take a long time, and I do not recommend it)
+The thrid will run the entire test set through all four models and perform BLEU and chrF. (This will take even longer)
+The fourth will run COMET on the full prediction set.
+
+Remember that changing the directory paths is crucial. I tried to see if there was a way to do this in Colab without mount your Drive, but it appears not to be the case.
+
+
+
+
+
+
