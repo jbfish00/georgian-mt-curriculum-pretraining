@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"& { git --version; git remote -v }\")"
+    ]
+  }
+}
